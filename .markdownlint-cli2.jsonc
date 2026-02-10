@@ -21,6 +21,8 @@
         // Allow inline HTML
         "MD033": false,
         // First line in a file doesn't need to be a top-level header
-        "MD041": false
+        "MD041": false,
+        // Disable fragment validation — cross-page anchors (e.g. exercise links) are valid on the rendered site
+        "MD051": false
     }
 }
